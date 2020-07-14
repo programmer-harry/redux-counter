@@ -1,0 +1,14 @@
+{
+  "name": "redux-counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/programmer-harry/redux-counter.git",
+  "author": "Harry <haibane84@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
