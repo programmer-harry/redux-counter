@@ -2,7 +2,7 @@ class Counter {
   constructor(id) {
     this.value = 1;
     this.container = document.getElementById(id);
-    if (this.container == null) throw Error(id + " 찾을 수 없습니다.");
+    if (this.container == null) throw Error(id + ' 찾을 수 없습니다.');
     this.render();
   }
   increase() {
@@ -22,12 +22,10 @@ class Counter {
   }
 }
 
-const counter = new Counter("digit-number")
-document.getElementById("minus-btn")
-  .addEventListener('click', e => {
-    counter.decrease();
-  })
-document.getElementById("plus-btn")
-  .addEventListener('click', e => {
-    counter.increase();
-  })
+const counter = new Counter('digit-number');
+document.getElementById('minus-btn').addEventListener('click', (e) => {
+  counter.decrease();
+});
+document.getElementById('plus-btn').addEventListener('click', (e) => {
+  counter.increase();
+});
